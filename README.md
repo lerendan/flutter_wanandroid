@@ -1,7 +1,7 @@
 # flutter_wanandroid
 
 Flutter application with WanAndroid.
-基于Google Flutter的玩安卓客户端
+基于Google Flutter的玩安卓客户端.
 
 ## Getting Started
 
