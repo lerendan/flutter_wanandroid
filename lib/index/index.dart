@@ -96,7 +96,7 @@ class _IndexState extends State<Index> {
               )),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.airplay,
+                Icons.face,
                 color: _bottomNavigationColor,
               ),
               title: Text(
