@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wanandroid/home/home_page.dart';
+import 'package:flutter_wanandroid/mine/mine_page.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Index extends StatefulWidget {
   @override
@@ -27,7 +29,7 @@ class _IndexState extends State<Index> {
         new HomePage(),
         new Center(child: new Text("1")),
         new Center(child: new Text("2")),
-        new Center(child: new Text("3"))
+        new MinePage()
       ],
       index: _currentIndex,
     );
@@ -58,6 +60,7 @@ class _IndexState extends State<Index> {
                   // Update the state of the app
                   // ...
                   // Then close the drawer
+                  Fluttertoast.showToast(msg: "Item1");
                   Navigator.pop(context);
                 },
               ),
@@ -67,6 +70,7 @@ class _IndexState extends State<Index> {
                   // Update the state of the app
                   // ...
                   // Then close the drawer
+                  Fluttertoast.showToast(msg: "Item2");
                   Navigator.pop(context);
                 },
               ),
